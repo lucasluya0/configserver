@@ -7,7 +7,3 @@ spring:
         service-name: ${spring.application.name}
       host: localhost
       port: 8500
-    config:
-      discovery:
-        enabled: true
-        service-id: configserver
